@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 20px;
+}
+
+
+.list {
+  display: block;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: left;
+}
+
+.card_image {
+  width: 100%;
+  min-width: 50px;
+  max-width: 100px;
+  margin-left: 25px;
+}
+
+.card {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 5px 10px #6e6e6e;
+  margin: 20px;
+  background-color: #F5F5F6;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #dedbdb;
+  border: 5px solid white;
+}
+
+.card_description {
+  color: #5A5A5A;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #A30A0A;
+}
+
+.card_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+img {
+  width: 200%;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 20px;
+}
+
+.button_confirm {
+  color: #A30A0A;
+  border: 1px solid #A30A0A;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+
+  margin-right: 20px;
+}
+
+.card_price {
+  color: #A30A0A;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
